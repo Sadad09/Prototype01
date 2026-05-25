@@ -1,1 +1,86 @@
-f
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTT — One Task at a Time</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-[#060211] text-slate-100 min-h-screen relative overflow-x-hidden">
+
+    <header class="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex items-center justify-between relative z-50">
+        <div class="flex items-center gap-2.5">
+            <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-purple-600 to-pink-500 p-[1px] shadow-[0_0_15px_rgba(168,85,247,0.4)]">
+                <div class="w-full h-full bg-[#060211] rounded-[11px] flex items-center justify-center text-white text-xs font-black">
+                    <i class="fa-solid fa-cubes-stacked text-purple-400"></i>
+                </div>
+            </div>
+            <span class="text-sm font-bold tracking-tight text-white">OTT</span>
+        </div>
+        
+        <nav class="hidden md:flex items-center gap-8 text-xs font-medium text-slate-400">
+            <a href="#" class="hover:text-white transition-colors">Features</a>
+            <a href="#" class="hover:text-white transition-colors">Integrations</a>
+            <a href="#" class="hover:text-white transition-colors">Pricing</a>
+            <a href="#" class="hover:text-white transition-colors">Changelog</a>
+        </nav>
+
+        <a href="#" class="px-4 py-2 rounded-lg bg-white text-[#060211] font-semibold text-xs hover:bg-slate-200 transition-all shadow-[0_4px_12px_rgba(255,255,255,0.1)]">
+            Get for free
+        </a>
+    </header>
+
+    <main class="relative pt-20 pb-32 overflow-hidden flex flex-col items-center justify-center min-h-[80vh]">
+        
+        <div class="absolute bottom-[-100px] left-1/2 -translate-x-1/2 w-[300px] sm:w-[600px] md:w-[900px] h-[350px] bg-purple-600/20 blur-[130px] rounded-full pointer-events-none"></div>
+        <div class="absolute top-12 left-1/4 w-[250px] h-[250px] bg-indigo-600/10 blur-[100px] rounded-full pointer-events-none"></div>
+
+        <div class="max-w-4xl mx-auto px-4 text-center relative z-10 flex flex-col items-center">
+            
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-purple-950/30 border border-purple-900/40 text-[11px] font-medium tracking-wide text-purple-300 mb-8 backdrop-blur-md hover:border-purple-700/50 transition-all group cursor-pointer">
+                <span class="w-1.5 h-1.5 rounded-full bg-purple-400 animate-pulse"></span>
+                Version 2.0 is here 
+                <span class="text-slate-500 lowercase normal-case ml-1 group-hover:text-slate-300 transition-colors">Read more →</span>
+            </div>
+
+            <h1 class="text-5xl sm:text-7xl md:text-8xl font-black text-white tracking-tight leading-[1.05] max-w-4xl mb-8 selection:bg-purple-500/30">
+                One Task <br>
+                <span class="bg-gradient-to-b from-white via-slate-200 to-slate-500 bg-clip-text text-transparent">at a Time</span>
+            </h1>
+
+            <p class="text-sm sm:text-base md:text-lg text-slate-400 max-w-lg leading-relaxed mb-10 font-medium selection:bg-purple-500/30">
+                Celebrate the joy of accomplishment with an app designed to track your progress, motivate your efforts, and celebrate your successes.
+            </p>
+
+            <a href="#" class="px-6 py-3.5 rounded-xl bg-white text-black font-bold text-xs tracking-wide hover:bg-slate-100 transition-all shadow-[0_0_25px_rgba(255,255,255,0.15)] hover:scale-[1.03] active:scale-[0.98]">
+                Get for free
+            </a>
+
+        </div>
+
+        <div class="hidden lg:block absolute left-24 top-1/2 -translate-y-1/2 w-20 h-20 bg-gradient-to-br from-purple-500/20 to-transparent border border-purple-500/20 rounded-2xl rotate-12 blur-[0.5px] animate-bounce [animation-duration:7s] shadow-[inset_0_0_15px_rgba(168,85,247,0.1)]">
+            <div class="w-full h-full flex items-center justify-center text-purple-400/40 text-xl">
+                <i class="fa-solid fa-paper-plane"></i>
+            </div>
+        </div>
+        
+        <div class="hidden lg:block absolute right-24 top-1/3 w-24 h-20 bg-gradient-to-bl from-indigo-500/20 to-transparent border border-indigo-500/20 rounded-3xl -rotate-12 blur-[0.5px] animate-pulse [animation-duration:5s] shadow-[inset_0_0_15px_rgba(99,102,241,0.1)]">
+            <div class="w-full h-full flex items-center justify-center text-indigo-400/40 text-2xl">
+                <i class="fa-solid fa-message"></i>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+</html>
